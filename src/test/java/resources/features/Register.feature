@@ -16,7 +16,7 @@ Feature: Register Functionality
 
     Examples: 
       | email_address 					| 
-      | assignment6@example.com |
+      | pokala010@example.com 	|
       
   @Register
   Scenario Outline: Validation of registation functionality with existing email address

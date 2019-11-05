@@ -1,0 +1,31 @@
+CucumberFramework - Selenium Webdriver with JUnit (Page Object Model)
+
+Application Under Test - http://automationpractice.com
+
+Pre-Requisites:
+
+Install JDK1.8 and create JAVA_HOME environment variable
+Update the chrome browser to latest (v78)
+Update the firefox browser to latest (v70)
+
+Import the project in Eclipse / IntelliJ
+
+ ** Update the test data (email address) in first scenario of Register Functionality. Update it with a unique email address **
+
+1. For running all test cases
+	mvn clean test -Dbrowser=chrome -Dcucumber.options="--tags @FullTestSuite" 
+	
+2. For Running Register Functionality
+	mvn clean test -Dbrowser=firefox -Dcucumber.options="--tags @Register" 
+	
+3. For Running MegaMenu Functionality
+	mvn clean test -Dbrowser=firefox -Dcucumber.options="--tags @MegaMenu" 
+
+4. For Running Add To Cart Functionality
+	mvn clean test -Dbrowser=firefox -Dcucumber.options="--tags @AddToCart" 
+
+Test Results Report available at "target/SystemTestReports/html"
+
+Notes:
+By Integrating this with Jenkins a better Cucumber Test Results Report can be generated
+Parallel execution failing, hence revoked to sequential execution. 

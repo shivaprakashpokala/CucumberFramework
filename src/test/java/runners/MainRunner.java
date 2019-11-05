@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue = {"stepDefinitions"},
 		plugin= {"pretty",
 				"html:target/SystemTestReports/html"},
-				tags = {"@AddToCart"},
+				tags = {"@FullTestSuite"},
 				dryRun = false,
 				monochrome = true
 		)

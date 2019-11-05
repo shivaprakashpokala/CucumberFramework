@@ -8,7 +8,7 @@ Install JDK1.8 and create JAVA_HOME environment variable
 Update the chrome browser to latest (v78)
 Update the firefox browser to latest (v70)
 
-Import the project in Eclipse / IntelliJ
+Import the project in Eclipse / IntelliJ 
 
  ** Update the test data (email address) in first scenario of Register Functionality. Update it with a unique email address **
 
@@ -26,6 +26,8 @@ Import the project in Eclipse / IntelliJ
 
 Test Results Report available at "target/SystemTestReports/html"
 
+** In case of any build failure, please check JDK and Maven versions) **
+
 Notes:
-By Integrating this with Jenkins a better Cucumber Test Results Report can be generated
-Parallel execution failing, hence revoked to sequential execution. 
+ - By Integrating this with Jenkins a better Cucumber Test Results Report can be generated
+ - Could not implement Parallel execution, can learn and implement if necessary.  

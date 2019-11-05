@@ -1,0 +1,16 @@
+pageObjects\Products_Page.class
+stepDefinitions\AuthenticationPageSteps.class
+stepDefinitions\MasterHooks.class
+stepDefinitions\ProductsPageSteps.class
+utils\DriverFactory.class
+pageObjects\ProductDetails_Page.class
+stepDefinitions\ProductDetailsPageSteps.class
+pageObjects\ScenarioContext.class
+stepDefinitions\CreateAnAccountPageSteps.class
+pageObjects\CartSummary_Page.class
+pageObjects\Home_Page.class
+pageObjects\BasePage.class
+stepDefinitions\HomePageSteps.class
+stepDefinitions\CartSummaryPageSteps.class
+pageObjects\CreateAnAccount_Page.class
+pageObjects\Authentication_Page.class

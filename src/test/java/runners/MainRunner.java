@@ -1,4 +1,4 @@
-package runners;
+package resources.runner;
 
 import org.junit.runner.RunWith;
 

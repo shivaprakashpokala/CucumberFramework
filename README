@@ -30,4 +30,3 @@ Test Results Report available at "target/SystemTestReports/html"
 
 Notes:
  - By Integrating this with Jenkins a better Cucumber Test Results Report can be generated
- - Could not implement Parallel execution, can learn and implement if necessary.  
